@@ -1,0 +1,20 @@
+HTTP/1.1 101 Switching Protocols
+Date: Wed, 04 Nov 2026 15:15:13 GMT
+Connection: upgrade
+upgrade: websocket
+sec-websocket-accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
+sec-websocket-protocol: guacamole
+pragma: no-cache
+expires: 0
+content-security-policy: frame-ancestors 'self';
+cache-control: no-cache
+cross-origin-opener-policy: unsafe-none
+cross-origin-embedder-policy: unsafe-none
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=JhHShtff1xqf42rhCKKJ06ps0mXivwBANqhAQVKiweUAmEfOSVWwHnbxnygB7wAU%2FfeNPONYs0NTcZuYhctOC810s3pX4txV4kgWZdhXiNCQZEjNx8NPY3fFal441qHSElg%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a55492a798071804-YYZ
+alt-svc: h3=":443"; ma=86400
+

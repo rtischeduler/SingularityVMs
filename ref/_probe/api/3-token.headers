@@ -1,0 +1,18 @@
+HTTP/2 200 
+date: Wed, 04 Nov 2026 15:15:12 GMT
+content-type: application/json
+set-cookie: JSESSIONID=E20E65BFF8A98CA36348BA8147B2A9D0; Path=/osessionx68; HttpOnly; Secure
+pragma: no-cache
+expires: 0
+content-security-policy: frame-ancestors 'self';
+cache-control: no-cache
+cross-origin-opener-policy: unsafe-none
+cross-origin-embedder-policy: unsafe-none
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=q04ZtEbmlpSZpwkc7tACy5V5lxmAN%2FW%2B99lFtRVT6JjHVr2PfV95VHXxvXZjPIsvrPliR8vriSdHx4s%2BIjBW%2BPCiGtYXPYn%2F6Ikva5KkSQdq76e9OTETkVfLsmL2Sva%2FuzA%3D"}]}
+server: cloudflare
+cf-ray: a55492a14c6f860b-YYZ
+alt-svc: h3=":443"; ma=86400
+

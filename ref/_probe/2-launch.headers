@@ -1,15 +1,15 @@
 HTTP/2 307 
-date: Wed, 04 Nov 2026 15:13:31 GMT
+date: Wed, 04 Nov 2026 15:15:00 GMT
 content-type: text/html; charset=UTF-8
 access-control-allow-origin: *
 access-control-allow-credentials: true
 access-control-allow-methods: GET, PUT, POST, DELETE, OPTIONS
 access-control-max-age: 1000
 access-control-allow-headers: Origin, Content-Type, X-Auth-Token , Authorization
-set-cookie: os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:30:11 GMT; Max-Age=1000; path=/; domain=www.onworks.net; SameSite=Strict; Secure; Secure
-set-cookie: os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:30:11 GMT; Max-Age=1000; path=/; domain=www.onworks.net;; Secure
-set-cookie: onworks_os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:30:11 GMT; Max-Age=1000; path=/; domain=www.onworks.net; SameSite=Strict; Secure; Secure
-set-cookie: onworks_os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:30:11 GMT; Max-Age=1000; path=/; domain=www.onworks.net;; Secure
+set-cookie: os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:31:39 GMT; Max-Age=1000; path=/; domain=www.onworks.net; SameSite=Strict; Secure; Secure
+set-cookie: os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:31:39 GMT; Max-Age=1000; path=/; domain=www.onworks.net;; Secure
+set-cookie: onworks_os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:31:39 GMT; Max-Age=1000; path=/; domain=www.onworks.net; SameSite=Strict; Secure; Secure
+set-cookie: onworks_os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:31:39 GMT; Max-Age=1000; path=/; domain=www.onworks.net;; Secure
 location: /playonline/index.php
 content-security-policy: frame-ancestors 'self';
 cross-origin-opener-policy: unsafe-none
@@ -17,13 +17,13 @@ cross-origin-embedder-policy: unsafe-none
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 cf-cache-status: DYNAMIC
 nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xaoXnHBobSTxS65usXf%2FC%2BbKbVlL7cgjH88fW3ay%2FhT2Wn2Te%2Fede8%2BO8%2Fd%2F5Y2oHzyuFh4MYAH0GklDKsHVC%2FWedkiz7fjcKOAoLns00NwMrDbFs%2F5mlC3eESbdWWZhc4c%3D"}]}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=es%2FoBzNI7fdOle6Iwjd%2B%2BtuQ6Npz%2FZzobvwarqLNzUekAJ8XYgQRkBX%2BAvd0SwaNT9RHxjX0uL9d%2BXAuYzBLVwvk3Mor%2F6Mp8JIB041othrEsU1pZkN4TRmn0AHgKX2fOQw%3D"}]}
 server: cloudflare
-cf-ray: a554902a1b9b28d3-DFW
+cf-ray: a5549253f9e33972-YYZ
 alt-svc: h3=":443"; ma=86400
 
 HTTP/2 200 
-date: Wed, 04 Nov 2026 15:13:31 GMT
+date: Wed, 04 Nov 2026 15:15:00 GMT
 content-type: text/html; charset=UTF-8
 vary: Accept-Encoding
 vary: Accept-Encoding
@@ -32,7 +32,7 @@ access-control-allow-credentials: true
 access-control-allow-methods: GET, PUT, POST, DELETE, OPTIONS
 access-control-max-age: 1000
 access-control-allow-headers: Origin, Content-Type, X-Auth-Token , Authorization
-report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=33ncvKVMlqS5uxCXiaehTNnAlp1e3sn9JtkTlDO5esTZPds7sgyWIrZ4wwInxEonnphSwZXLXp7sZHaQzYNMXACeoyAeCC9HbaI8WCDKnWaFJiOlV8O3eqqiHahcnIXrGvk%3D"}]}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jJ1XXNv10KpTFsmFBpJzmCOQBuDhef7koQd4zmI1Bmw4l2f3kwz%2F8Oyj9zyaksu3AsPKzhROB0cVcuUn%2BIzVRV%2FeloBeYNvrcZuNiMYra7NW2kp7tOVb4VnCaRJEOQ0UIrE%3D"}]}
 content-security-policy: frame-ancestors 'self';
 cross-origin-opener-policy: unsafe-none
 cross-origin-embedder-policy: unsafe-none
@@ -40,6 +40,6 @@ strict-transport-security: max-age=31536000; includeSubDomains; preload
 cf-cache-status: DYNAMIC
 nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 server: cloudflare
-cf-ray: a554902b6f2f28d3-DFW
+cf-ray: a55492559b1f3972-YYZ
 alt-svc: h3=":443"; ma=86400
 
