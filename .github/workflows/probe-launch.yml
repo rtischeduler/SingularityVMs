@@ -28,6 +28,10 @@ jobs:
           curl -sk -L --max-time 40 -A "$UA" -c $J -D 1-runonworks.headers -o 1-runonworks.html "https://www.onworks.net/playonline/runonworks.php" || true
           curl -sk -L --max-time 40 -A "$UA" -b $J -c $J -e "https://www.onworks.net/playonline/runonworks.php" -D 2-launch.headers -o 2-launch.html "https://www.onworks.net/playonline/index.php?os=$OS" || true
           curl -sk --max-time 20 -A "$UA" -b $J -D 3-launch-nofollow.headers -o /dev/null "https://www.onworks.net/playonline/index.php?os=$OS" || true
+          # every playonline script the launch page loads (this is where the session/guacamole logic lives)
+          for p in $(grep -o -E '/playonline/[^"'"'"' ]+\.js[^"'"'"' ]*' 2-launch.html | sort -u); do
+            n=$(echo "$p" | sed 's#[/?=&]#_#g'); curl -sk --max-time 30 -A "$UA" -b $J -e "https://www.onworks.net/playonline/index.php" -D "script$n.headers" -o "script$n.js" "https://www.onworks.net$p" || true
+          done
           # every URL, websocket and request the launch page mentions
           grep -o -i -E "(wss?|https?)://[^\"' <>)\\\\]+" 2-launch.html | sort -u > 4-urls.txt || true
           grep -n -i -E "new WebSocket|fetch\(|XMLHttpRequest|\.open\(|iframe|session|token|novnc|guac|rfb|vnc|rdp" 2-launch.html | cut -c1-300 > 5-session-lines.txt || true
