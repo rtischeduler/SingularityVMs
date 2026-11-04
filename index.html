@@ -21,16 +21,7 @@ h1{font-size:18px;margin:0;font-weight:650}
 .card img{width:48px;height:48px;object-fit:contain;border-radius:10px;background:var(--bg)}
 .card .n{font-weight:600;word-break:break-word}.card .k{color:var(--muted);font-size:12px;margin-top:auto}
 #empty{padding:40px;text-align:center;color:var(--muted);display:none}
-#app{position:fixed;inset:0;background:var(--bg);display:none;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);z-index:10}
-#app.on{display:flex}
-#bar{display:flex;gap:8px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line)}
-#bar .t{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.btn{border:1px solid var(--line);background:var(--panel);color:var(--text);padding:7px 12px;border-radius:9px;cursor:pointer;font:inherit;font-size:13px;text-decoration:none}
-.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
-#stage{flex:1;position:relative}
-#frame{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
-#msg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;color:var(--muted);text-align:center;padding:24px;background:var(--bg)}
-#msg.hide{display:none}
+.launch{font-size:12px;color:var(--accent);border:1px solid var(--accent);border-radius:8px;padding:3px 8px;align-self:flex-start}
 </style>
 </head>
 <body>
@@ -39,21 +30,11 @@ h1{font-size:18px;margin:0;font-weight:650}
 <main id="grid"></main>
 <div id="empty">Nothing matches that search.</div>
 
-<section id="app" aria-label="Running app">
-  <div id="bar">
-    <button class="btn" id="back">← Back</button>
-    <span class="t" id="title"></span>
-    <button class="btn" id="page">Page</button>
-    <button class="btn pri" id="vm">Launch VM</button>
-    <a class="btn" id="ext" target="_blank" rel="noopener">Open on onworks</a>
-  </div>
-  <div id="stage"><div id="msg" class="hide"></div><iframe id="frame" sandbox="allow-scripts allow-forms allow-popups allow-modals allow-pointer-lock allow-downloads" allow="fullscreen; clipboard-read; clipboard-write; microphone; camera"></iframe></div>
-</section>
 
 <script type="module">
-import { proxyFetch, currentMode } from "./app/js/net.js";
+import { go } from "./app/js/host.mjs";
 const $ = (id) => document.getElementById(id);
-let items = [], site = "https://www.onworks.net", kind = "All", cur = null;
+let items = [], site = "https://www.onworks.net", kind = "All";
 
 const res = await fetch("catalog.json").catch(() => null);
 if (res && res.ok) { const d = await res.json(); items = d.items; site = d.site; }
@@ -73,37 +54,20 @@ function render() {
     const img = it.icon ? `<img loading="lazy" referrerpolicy="no-referrer" alt="" src="${it.icon}">` : `<img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%23262b38'/%3E%3C/svg%3E">`;
     b.innerHTML = `${img}<span class="n"></span><span class="k"></span>`;
     b.querySelector(".n").textContent = it.name; b.querySelector(".k").textContent = it.kind;
-    b.onclick = () => open(it);
+    if (it.os) {
+      const l = document.createElement("span"); l.className = "launch"; l.textContent = "Launch VM";
+      l.onclick = (e) => { e.stopPropagation(); go(`${site}/playonline/index.php?os=${encodeURIComponent(it.os)}`); };
+      b.insertBefore(l, b.querySelector(".k"));
+    }
+    b.onclick = () => go(it.page);
     $("grid").append(b);
   }
 }
 
-function say(html) { const m = $("msg"); m.classList.remove("hide"); m.innerHTML = html; }
-function done() { $("msg").classList.add("hide"); }
-
-/** Fetch an onworks page through the proxy and show it in the sandboxed frame (base href keeps its assets working). */
-async function show(url, label) {
-  say(`<div>Loading ${label}…</div><div style="font-size:12px">via proxy</div>`);
-  try {
-    const r = await proxyFetch(url, { headers: { Accept: "text/html" } }, { say: (t) => say(`<div>${t}</div>`) });
-    let html = await r.text();
-    if (!/<base\s/i.test(html)) html = html.replace(/<head[^>]*>/i, (m) => `${m}<base href="${url}">`);
-    $("frame").srcdoc = html; done();
-  } catch (e) { say(`<div>Couldn’t load that through the proxy.</div><div style="font-size:12px">${String(e && e.message || e)}</div>`); }
-}
-
-function open(it) {
-  cur = it; $("title").textContent = it.name; $("ext").href = it.page;
-  $("vm").style.display = it.os ? "" : "none";
-  $("app").classList.add("on"); history.replaceState(null, "", "#" + it.id);
-  show(it.page, it.name);
-}
-$("page").onclick = () => cur && show(cur.page, cur.name);
-$("vm").onclick = () => cur && cur.os && show(`${site}/playonline/index.php?os=${encodeURIComponent(cur.os)}`, cur.name + " (VM)");
-$("back").onclick = () => { $("app").classList.remove("on"); $("frame").srcdoc = ""; history.replaceState(null, "", location.pathname + location.search); };
-
 render();
-const start = location.hash.slice(1); const hit = items.find((i) => i.id === start); if (hit) open(hit);
+const u = new URLSearchParams(location.search).get("u");
+if (u) go(u, { push: false });
+else { const hit = items.find((i) => i.id === location.hash.slice(1)); if (hit) go(hit.page); }
 </script>
 </body>
 </html>
