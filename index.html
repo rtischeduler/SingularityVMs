@@ -40,7 +40,7 @@ h1{font-size:18px;margin:0;font-weight:650}
 <div id="empty">Nothing matches that search.</div>
 
 
-<section id="session"><div id="sbar"><b id="stitle"></b><span id="sstate"></span><button id="cad">Ctrl+Alt+Del</button><button id="paste">Paste</button><button id="full">Fullscreen</button><button id="stop" class="stop">Stop</button></div><div id="screen"></div><div id="smsg"></div></section>
+<section id="session"><div id="sbar"><b id="stitle"></b><span id="sstate"></span><button id="cad">Ctrl+Alt+Del</button><button id="snd">Sound: on</button><button id="paste">Paste</button><button id="full">Fullscreen</button><button id="stop" class="stop">Stop</button></div><div id="screen"></div><div id="smsg"></div></section>
 <script type="module">
 import { launch } from "./app/js/vm.mjs";
 const $ = (id) => document.getElementById(id);
@@ -73,7 +73,7 @@ const say = (t) => { $("smsg").textContent = t || ""; };
 async function start(it) {
   if (sess) return;
   $("session").classList.add("on"); $("stitle").textContent = it.name; $("sstate").textContent = "";
-  history.replaceState(null, "", "#" + it.id);
+  history.replaceState(null, "", "#" + it.id); snd = true; $("snd").textContent = "Sound: on";
   try {
     sess = await launch(it.os, { el: $("screen"), say, onState: (st, name) => { $("sstate").textContent = name; if (st === 5) say("Session ended. Press Stop to return."); } });
   } catch (e) { say("Couldn’t start this VM: " + (e && e.message || e) + " — press Stop to go back."); sess = null; failed = true; }
@@ -81,6 +81,8 @@ async function start(it) {
 let failed = false;
 function stop() { if (sess) sess.stop(); sess = null; failed = false; say(""); $("sstate").textContent = ""; $("session").classList.remove("on"); history.replaceState(null, "", location.pathname); }
 $("stop").onclick = stop;
+let snd = true;
+$("snd").onclick = () => { snd = !snd; if (sess) sess.sound(snd); $("snd").textContent = "Sound: " + (snd ? "on" : "off"); };
 $("cad").onclick = () => sess && sess.ctrlAltDel();
 $("paste").onclick = async () => { try { const t = await navigator.clipboard.readText(); sess && t && sess.paste(t); } catch { say("Clipboard permission was blocked."); setTimeout(() => say(""), 2500); } };
 $("full").onclick = () => (document.fullscreenElement ? document.exitFullscreen() : $("session").requestFullscreen && $("session").requestFullscreen());

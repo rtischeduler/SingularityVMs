@@ -76,6 +76,7 @@ export async function launch(os, { el, say = () => {}, onState = () => {}, app =
   say("Connecting…");
   const w = Math.max(320, el.clientWidth), h = Math.max(240, el.clientHeight);
   const data = [q({ token: tok.authToken, GUAC_DATA_SOURCE: ds, GUAC_ID: conn.identifier, GUAC_TYPE: "c", GUAC_WIDTH: w, GUAC_HEIGHT: h, GUAC_DPI: 96 }),
+    ...(G.AudioPlayer && G.AudioPlayer.getSupportedTypes ? G.AudioPlayer.getSupportedTypes() : ["audio/L8", "audio/L16"]).map((t) => "GUAC_AUDIO=" + encodeURIComponent(t)),
     "GUAC_IMAGE=image%2Fjpeg&GUAC_IMAGE=image%2Fpng&GUAC_IMAGE=image%2Fwebp"].join("&");
 
   const tunnel = new G.WebSocketTunnel(`${wsBase}/websocket-tunnel`);
@@ -114,6 +115,8 @@ export async function launch(os, { el, say = () => {}, onState = () => {}, app =
     kb.onkeydown = kb.onkeyup = null;
   }
   client.connect(data);
+  const unlock = () => { const f = G.AudioContextFactory, c = f && f.getAudioContext && f.getAudioContext(); if (c && c.state === "suspended") c.resume().catch(() => {}); };
+  unlock(); el.addEventListener("pointerdown", unlock);
 
   const key = (...ks) => { ks.forEach((k) => client.sendKeyEvent(1, k)); ks.reverse().forEach((k) => client.sendKeyEvent(0, k)); };
   return {
@@ -122,5 +125,10 @@ export async function launch(os, { el, say = () => {}, onState = () => {}, app =
     ctrlAltDel() { key(0xffe3, 0xffe9, 0xffff); },
     paste(t) { const s = client.createClipboardStream("text/plain"), w = new G.StringWriter(s); w.sendText(t); w.sendEnd(); },
     focus(on) { live = on; },
+    // Browsers keep audio suspended until a user gesture; calling this from a click/tap (re)starts it.
+    sound(on) {
+      const f = G.AudioContextFactory, ctx = f && f.getAudioContext && f.getAudioContext();
+      if (!ctx) return null; (on ? ctx.resume() : ctx.suspend()).catch(() => {}); return on;
+    },
   };
 }
