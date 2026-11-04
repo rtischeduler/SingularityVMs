@@ -37,6 +37,7 @@ jobs:
         run: |
           rm -rf ref
           python scripts/crawl_ref.py
+          python scripts/build_catalog.py
 
       - name: Commit ref/ to main
         env:
@@ -44,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A ref
+          git add -A ref catalog.json
           if git diff --cached --quiet; then
             echo "No changes"
           else
