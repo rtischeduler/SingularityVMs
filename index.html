@@ -22,6 +22,15 @@ h1{font-size:18px;margin:0;font-weight:650}
 .card .n{font-weight:600;word-break:break-word}.card .k{color:var(--muted);font-size:12px;margin-top:auto}
 #empty{padding:40px;text-align:center;color:var(--muted);display:none}
 .launch{font-size:12px;color:var(--accent);border:1px solid var(--accent);border-radius:8px;padding:3px 8px;align-self:flex-start}
+
+#session{position:fixed;inset:0;background:#000;display:none;flex-direction:column;z-index:50}
+#session.on{display:flex}
+#sbar{display:flex;gap:8px;align-items:center;padding:8px 12px;background:#12151c;border-bottom:1px solid #262b38;color:#e8eaf0;font:14px system-ui,sans-serif}
+#sbar b{margin-right:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#sbar button{border:1px solid #262b38;background:#171a22;color:#e8eaf0;border-radius:9px;padding:6px 10px;font:13px system-ui,sans-serif;cursor:pointer}
+#sbar button.stop{border-color:#b33;color:#ff8a8a}
+#screen{position:relative;flex:1;overflow:hidden;background:#000}
+#smsg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;color:#e8eaf0;font:15px system-ui,sans-serif;pointer-events:none}
 </style>
 </head>
 <body>
@@ -31,14 +40,15 @@ h1{font-size:18px;margin:0;font-weight:650}
 <div id="empty">Nothing matches that search.</div>
 
 
+<section id="session"><div id="sbar"><b id="stitle"></b><span id="sstate"></span><button id="cad">Ctrl+Alt+Del</button><button id="paste">Paste</button><button id="full">Fullscreen</button><button id="stop" class="stop">Stop</button></div><div id="screen"></div><div id="smsg"></div></section>
 <script type="module">
-import { go } from "./app/js/host.mjs";
+import { launch } from "./app/js/vm.mjs";
 const $ = (id) => document.getElementById(id);
-let items = [], site = "https://www.onworks.net", kind = "All";
+let items = [], kind = "All", sess = null;
 
 const res = await fetch("catalog.json").catch(() => null);
-if (res && res.ok) { const d = await res.json(); items = d.items; site = d.site; }
-const kinds = ["All", ...[...new Set(items.map((i) => i.kind))]];
+if (res && res.ok) items = (await res.json()).items.filter((i) => i.os);
+const kinds = ["All", ...new Set(items.map((i) => i.kind))];
 $("chips").innerHTML = kinds.map((k) => `<button class="chip${k === kind ? " on" : ""}" data-k="${k}">${k}</button>`).join("");
 $("chips").onclick = (e) => { const k = e.target.dataset && e.target.dataset.k; if (!k) return; kind = k; [...$("chips").children].forEach((c) => c.classList.toggle("on", c.dataset.k === k)); render(); };
 $("q").oninput = render;
@@ -54,20 +64,30 @@ function render() {
     const img = it.icon ? `<img loading="lazy" referrerpolicy="no-referrer" alt="" src="${it.icon}">` : `<img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%23262b38'/%3E%3C/svg%3E">`;
     b.innerHTML = `${img}<span class="n"></span><span class="k"></span>`;
     b.querySelector(".n").textContent = it.name; b.querySelector(".k").textContent = it.kind;
-    if (it.os) {
-      const l = document.createElement("span"); l.className = "launch"; l.textContent = "Launch VM";
-      l.onclick = (e) => { e.stopPropagation(); go(`${site}/playonline/index.php?os=${encodeURIComponent(it.os)}`); };
-      b.insertBefore(l, b.querySelector(".k"));
-    }
-    b.onclick = () => go(it.page);
+    b.onclick = () => start(it);
     $("grid").append(b);
   }
 }
 
+const say = (t) => { $("smsg").textContent = t || ""; };
+async function start(it) {
+  if (sess) return;
+  $("session").classList.add("on"); $("stitle").textContent = it.name; $("sstate").textContent = "";
+  history.replaceState(null, "", "#" + it.id);
+  try {
+    sess = await launch(it.os, { el: $("screen"), say, onState: (st, name) => { $("sstate").textContent = name; if (st === 5) say("Session ended. Press Stop to return."); } });
+  } catch (e) { say("Couldn’t start this VM: " + (e && e.message || e) + " — press Stop to go back."); sess = null; failed = true; }
+}
+let failed = false;
+function stop() { if (sess) sess.stop(); sess = null; failed = false; say(""); $("sstate").textContent = ""; $("session").classList.remove("on"); history.replaceState(null, "", location.pathname); }
+$("stop").onclick = stop;
+$("cad").onclick = () => sess && sess.ctrlAltDel();
+$("paste").onclick = async () => { try { const t = await navigator.clipboard.readText(); sess && t && sess.paste(t); } catch { say("Clipboard permission was blocked."); setTimeout(() => say(""), 2500); } };
+$("full").onclick = () => (document.fullscreenElement ? document.exitFullscreen() : $("session").requestFullscreen && $("session").requestFullscreen());
+
 render();
-const u = new URLSearchParams(location.search).get("u");
-if (u) go(u, { push: false });
-else { const hit = items.find((i) => i.id === location.hash.slice(1)); if (hit) go(hit.page); }
+const hit = items.find((i) => i.id === location.hash.slice(1) || i.os === new URLSearchParams(location.search).get("os"));
+if (hit) start(hit);
 </script>
 </body>
 </html>
