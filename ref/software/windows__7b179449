@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Mobile and Web Applications" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en">
+	<title type="text">Free Linux software to download and run online in OnWorks OS like ubuntu online or fedora online download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+	<subtitle type="text">Free hosting provider for Linux online and Windows online workstations that run in Cloud servers with CentOS online, Ubuntu online and Fedora online to be used with a web browser and mobile device, whether Android or iPhone.</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.onworks.net"/>
+	<id>https://www.onworks.net</id>
+	<updated>2026-11-03T19:58:03+00:00</updated>
+	<generator uri="http://joomla.org" version="2.5">Mobile and Web Applications</generator>
+	<link rel="self" type="application/atom+xml" href="http://www.onworks.net/software/windows?format=feed&amp;type=atom"/>
+	<entry>
+		<title>MinGW - Minimalist GNU for Windows download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-mingw-minimalist-gnu-for-windows"/>
+		<published>2020-02-08T07:09:41+00:00</published>
+		<updated>2020-02-08T07:09:41+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-mingw-minimalist-gnu-for-windows</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappmingwminimalistgnuforwindows() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/Other-README?service=service01&quot;;
+downloadLink.download = &quot;Other-README&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runmingwminimalistgnuforwindowsinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+function runmingwminimalistgnuforwindowsinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+function runmingwminimalistgnuforwindowsinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+function runmingwminimalistgnuforwindowsinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app MinGW - Minimalist GNU for Windows free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/defaulticon.png&quot; border=&quot;0&quot; alt=&quot;Free download MinGW - Minimalist GNU for Windows Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd MinGW - Minimalist GNU for Windows Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named MinGW - Minimalist GNU for Windows whose latest release can be downloaded as Other-README. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappmingwminimalistgnuforwindows() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/Other-README?service=service01&quot;;
+downloadLink.download = &quot;Other-README&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runmingwminimalistgnuforwindowsinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+function runmingwminimalistgnuforwindowsinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+function runmingwminimalistgnuforwindowsinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+function runmingwminimalistgnuforwindowsinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=mingwminimalistgnuforwindows&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app MinGW - Minimalist GNU for Windows free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/defaulticon.png&quot; border=&quot;0&quot; alt=&quot;Free download MinGW - Minimalist GNU for Windows Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd MinGW - Minimalist GNU for Windows Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named MinGW - Minimalist GNU for Windows whose latest release can be downloaded as Other-README. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>Notepad++ Plugin Manager (old repo) download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-notepad-plugin-manager-old-repo"/>
+		<published>2020-02-08T07:11:13+00:00</published>
+		<updated>2020-02-08T07:11:13+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-notepad-plugin-manager-old-repo</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappnotepadpluginmanageroldrepo() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/PluginManager_1.0.8_UNI.zip?service=service01&quot;;
+downloadLink.download = &quot;PluginManager_1.0.8_UNI.zip&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runnotepadpluginmanageroldrepoinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+function runnotepadpluginmanageroldrepoinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+function runnotepadpluginmanageroldrepoinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+function runnotepadpluginmanageroldrepoinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Notepad++ Plugin Manager (old repo) free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/defaulticon.png&quot; border=&quot;0&quot; alt=&quot;Free download Notepad++ Plugin Manager (old repo) Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Notepad++ Plugin Manager (old repo) Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Notepad++ Plugin Manager (old repo) whose latest release can be downloaded as PluginManager_1.0.8_UNI.zip. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappnotepadpluginmanageroldrepo() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/PluginManager_1.0.8_UNI.zip?service=service01&quot;;
+downloadLink.download = &quot;PluginManager_1.0.8_UNI.zip&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runnotepadpluginmanageroldrepoinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+function runnotepadpluginmanageroldrepoinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+function runnotepadpluginmanageroldrepoinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+function runnotepadpluginmanageroldrepoinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=notepadpluginmanageroldrepo&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Notepad++ Plugin Manager (old repo) free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/defaulticon.png&quot; border=&quot;0&quot; alt=&quot;Free download Notepad++ Plugin Manager (old repo) Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Notepad++ Plugin Manager (old repo) Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Notepad++ Plugin Manager (old repo) whose latest release can be downloaded as PluginManager_1.0.8_UNI.zip. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>PortableApps.com download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-portableapps-com"/>
+		<published>2020-02-08T07:12:23+00:00</published>
+		<updated>2020-02-08T07:12:23+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-portableapps-com</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappportableappscom() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/PortableApps.com_Platform_Setup_16.0.1.paf.exe?service=service01&quot;;
+downloadLink.download = &quot;PortableApps.com_Platform_Setup_16.0.1.paf.exe&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runportableappscominubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+function runportableappscominfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+function runportableappscominwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+function runportableappscominmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app PortableApps.com free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/portableappscomicon.png&quot; border=&quot;0&quot; alt=&quot;Free download PortableApps.com Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd PortableApps.com Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named PortableApps.com whose latest release can be downloaded as PortableApps.com_Platform_Setup_16.0.1.paf.exe. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappportableappscom() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/PortableApps.com_Platform_Setup_16.0.1.paf.exe?service=service01&quot;;
+downloadLink.download = &quot;PortableApps.com_Platform_Setup_16.0.1.paf.exe&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runportableappscominubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+function runportableappscominfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+function runportableappscominwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+function runportableappscominmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=portableappscom&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app PortableApps.com free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/portableappscomicon.png&quot; border=&quot;0&quot; alt=&quot;Free download PortableApps.com Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd PortableApps.com Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named PortableApps.com whose latest release can be downloaded as PortableApps.com_Platform_Setup_16.0.1.paf.exe. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>movistartv download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-movistartv"/>
+		<published>2020-02-08T07:21:01+00:00</published>
+		<updated>2020-02-08T07:21:01+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-movistartv</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappmovistartv() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/MovistarTV.python.script-1.0.0.zip?service=service01&quot;;
+downloadLink.download = &quot;MovistarTV.python.script-1.0.0.zip&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runmovistartvinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=movistartv&quot;);
+}
+
+function runmovistartvinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=movistartv&quot;);
+}
+
+function runmovistartvinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=movistartv&quot;);
+}
+
+function runmovistartvinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=movistartv&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app movistartv free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/movistartvicon.png&quot; border=&quot;0&quot; alt=&quot;Free download movistartv Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd movistartv Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named movistartv whose latest release can be downloaded as MovistarTV.python.script-1.0.0.zip. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappmovistartv() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/MovistarTV.python.script-1.0.0.zip?service=service01&quot;;
+downloadLink.download = &quot;MovistarTV.python.script-1.0.0.zip&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runmovistartvinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=movistartv&quot;);
+}
+
+function runmovistartvinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=movistartv&quot;);
+}
+
+function runmovistartvinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=movistartv&quot;);
+}
+
+function runmovistartvinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=movistartv&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app movistartv free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/movistartvicon.png&quot; border=&quot;0&quot; alt=&quot;Free download movistartv Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd movistartv Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named movistartv whose latest release can be downloaded as MovistarTV.python.script-1.0.0.zip. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>GTK+ for Windows Runtime Environment download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-gtk-for-windows-runtime-environment"/>
+		<published>2020-02-08T07:21:47+00:00</published>
+		<updated>2020-02-08T07:21:47+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-gtk-for-windows-runtime-environment</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappgtkforwindowsruntimeenvironment() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/gtk2-runtime-2.24.10-2012-10-10-ash.exe?service=service01&quot;;
+downloadLink.download = &quot;gtk2-runtime-2.24.10-2012-10-10-ash.exe&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function rungtkforwindowsruntimeenvironmentinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+function rungtkforwindowsruntimeenvironmentinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+function rungtkforwindowsruntimeenvironmentinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+function rungtkforwindowsruntimeenvironmentinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app GTK+ for Windows Runtime Environment free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/gtkforwindowsruntimeenvironmenticon.png&quot; border=&quot;0&quot; alt=&quot;Free download GTK+ for Windows Runtime Environment Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd GTK+ for Windows Runtime Environment Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named GTK+ for Windows Runtime Environment whose latest release can be downloaded as gtk2-runtime-2.24.10-2012-10-10-ash.exe. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappgtkforwindowsruntimeenvironment() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/gtk2-runtime-2.24.10-2012-10-10-ash.exe?service=service01&quot;;
+downloadLink.download = &quot;gtk2-runtime-2.24.10-2012-10-10-ash.exe&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function rungtkforwindowsruntimeenvironmentinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+function rungtkforwindowsruntimeenvironmentinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+function rungtkforwindowsruntimeenvironmentinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+function rungtkforwindowsruntimeenvironmentinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=gtkforwindowsruntimeenvironment&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app GTK+ for Windows Runtime Environment free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/gtkforwindowsruntimeenvironmenticon.png&quot; border=&quot;0&quot; alt=&quot;Free download GTK+ for Windows Runtime Environment Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd GTK+ for Windows Runtime Environment Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named GTK+ for Windows Runtime Environment whose latest release can be downloaded as gtk2-runtime-2.24.10-2012-10-10-ash.exe. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>Dev-C++ download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-dev-c"/>
+		<published>2020-02-08T07:23:49+00:00</published>
+		<updated>2020-02-08T07:23:49+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-dev-c</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappdevc() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/Dev-Cpp5.11TDM-GCC4.9.2Setup.exe?service=service01&quot;;
+downloadLink.download = &quot;Dev-Cpp5.11TDM-GCC4.9.2Setup.exe&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function rundevcinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=devc&quot;);
+}
+
+function rundevcinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=devc&quot;);
+}
+
+function rundevcinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=devc&quot;);
+}
+
+function rundevcinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=devc&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Dev-C++ free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/devcicon.png&quot; border=&quot;0&quot; alt=&quot;Free download Dev-C++ Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Dev-C++ Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Dev-C++ whose latest release can be downloaded as Dev-Cpp5.11TDM-GCC4.9.2Setup.exe. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappdevc() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/Dev-Cpp5.11TDM-GCC4.9.2Setup.exe?service=service01&quot;;
+downloadLink.download = &quot;Dev-Cpp5.11TDM-GCC4.9.2Setup.exe&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function rundevcinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=devc&quot;);
+}
+
+function rundevcinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=devc&quot;);
+}
+
+function rundevcinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=devc&quot;);
+}
+
+function rundevcinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=devc&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Dev-C++ free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/devcicon.png&quot; border=&quot;0&quot; alt=&quot;Free download Dev-C++ Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Dev-C++ Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Dev-C++ whose latest release can be downloaded as Dev-Cpp5.11TDM-GCC4.9.2Setup.exe. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>Code::Blocks download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-code-blocks"/>
+		<published>2020-02-08T07:24:52+00:00</published>
+		<updated>2020-02-08T07:24:52+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-code-blocks</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappcodeblocks() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/sdk.chm?service=service01&quot;;
+downloadLink.download = &quot;sdk.chm&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runcodeblocksinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+function runcodeblocksinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+function runcodeblocksinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+function runcodeblocksinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Code::Blocks free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/codeblocksicon.png&quot; border=&quot;0&quot; alt=&quot;Free download Code::Blocks Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Code::Blocks Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Code::Blocks whose latest release can be downloaded as sdk.chm. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappcodeblocks() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/sdk.chm?service=service01&quot;;
+downloadLink.download = &quot;sdk.chm&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runcodeblocksinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+function runcodeblocksinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+function runcodeblocksinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+function runcodeblocksinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=codeblocks&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Code::Blocks free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/codeblocksicon.png&quot; border=&quot;0&quot; alt=&quot;Free download Code::Blocks Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Code::Blocks Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Code::Blocks whose latest release can be downloaded as sdk.chm. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>antimicro download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-antimicro"/>
+		<published>2020-02-08T07:26:21+00:00</published>
+		<updated>2020-02-08T07:26:21+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-antimicro</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappantimicro() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/Release2.23.tar.gz?service=service01&quot;;
+downloadLink.download = &quot;Release2.23.tar.gz&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runantimicroinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=antimicro&quot;);
+}
+
+function runantimicroinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=antimicro&quot;);
+}
+
+function runantimicroinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=antimicro&quot;);
+}
+
+function runantimicroinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=antimicro&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app antimicro free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/antimicroicon.png&quot; border=&quot;0&quot; alt=&quot;Free download antimicro Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd antimicro Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named antimicro whose latest release can be downloaded as Release2.23.tar.gz. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappantimicro() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/Release2.23.tar.gz?service=service01&quot;;
+downloadLink.download = &quot;Release2.23.tar.gz&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runantimicroinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=antimicro&quot;);
+}
+
+function runantimicroinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=antimicro&quot;);
+}
+
+function runantimicroinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=antimicro&quot;);
+}
+
+function runantimicroinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=antimicro&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app antimicro free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/antimicroicon.png&quot; border=&quot;0&quot; alt=&quot;Free download antimicro Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd antimicro Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named antimicro whose latest release can be downloaded as Release2.23.tar.gz. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>Notepad++ Plugins download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-notepad-plugins"/>
+		<published>2020-02-08T07:39:37+00:00</published>
+		<updated>2020-02-08T07:39:37+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-notepad-plugins</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappnotepadplugins() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/NppExec_06RC3_dll_x64.zip?service=service01&quot;;
+downloadLink.download = &quot;NppExec_06RC3_dll_x64.zip&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runnotepadpluginsinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+function runnotepadpluginsinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+function runnotepadpluginsinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+function runnotepadpluginsinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Notepad++ Plugins free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/defaulticon.png&quot; border=&quot;0&quot; alt=&quot;Free download Notepad++ Plugins Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Notepad++ Plugins Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Notepad++ Plugins whose latest release can be downloaded as NppExec_06RC3_dll_x64.zip. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappnotepadplugins() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/NppExec_06RC3_dll_x64.zip?service=service01&quot;;
+downloadLink.download = &quot;NppExec_06RC3_dll_x64.zip&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runnotepadpluginsinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+function runnotepadpluginsinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+function runnotepadpluginsinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+function runnotepadpluginsinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=notepadplugins&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Notepad++ Plugins free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/defaulticon.png&quot; border=&quot;0&quot; alt=&quot;Free download Notepad++ Plugins Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Notepad++ Plugins Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Notepad++ Plugins whose latest release can be downloaded as NppExec_06RC3_dll_x64.zip. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+	<entry>
+		<title>Xtreme Download Manager download for Windows</title>
+  <meta property="og:site_name" content="OnWorks.net" />
+  <meta property="og:title" content="MinGW - Minimalist GNU for Windows download for Windows" />
+  <meta property="og:type" content="website" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="x-default" />
+  <link rel="alternate" href="https://www.onworks.net/software/windows?format=feed&type=atom" hreflang="en" />
+  <link rel="alternate" href="https://www.onworks.net/pt/software/windows?format=feed&type=atom" hreflang="pt" />
+  <link rel="alternate" href="https://www.onworks.net/es/software/windows?format=feed&type=atom" hreflang="es" />
+  <link rel="alternate" href="https://www.onworks.net/ar/software/windows?format=feed&type=atom" hreflang="ar" />
+  <link rel="alternate" href="https://www.onworks.net/zh-CN/software/windows?format=feed&type=atom" hreflang="zh" />
+  <link rel="alternate" href="https://www.onworks.net/hi/software/windows?format=feed&type=atom" hreflang="hi" />
+  <link rel="alternate" href="https://www.onworks.net/it/software/windows?format=feed&type=atom" hreflang="it" />
+  <link rel="alternate" href="https://www.onworks.net/nl/software/windows?format=feed&type=atom" hreflang="nl" />
+  <link rel="alternate" href="https://www.onworks.net/ja/software/windows?format=feed&type=atom" hreflang="ja" />
+  <link rel="alternate" href="https://www.onworks.net/pl/software/windows?format=feed&type=atom" hreflang="pl" />
+  <link rel="alternate" href="https://www.onworks.net/de/software/windows?format=feed&type=atom" hreflang="de" />
+  <link rel="alternate" href="https://www.onworks.net/fr/software/windows?format=feed&type=atom" hreflang="fr" />
+  <link rel="alternate" href="https://www.onworks.net/tr/software/windows?format=feed&type=atom" hreflang="tr" />
+  <link rel="alternate" href="https://www.onworks.net/ko/software/windows?format=feed&type=atom" hreflang="ko" />
+  <link rel="alternate" href="https://www.onworks.net/ms/software/windows?format=feed&type=atom" hreflang="ms" />
+  <link rel="alternate" href="https://www.onworks.net/ro/software/windows?format=feed&type=atom" hreflang="ro" />
+  <link rel="alternate" href="https://www.onworks.net/ru/software/windows?format=feed&type=atom" hreflang="ru" />
+  <link rel="alternate" href="https://www.onworks.net/iw/software/windows?format=feed&type=atom" hreflang="he" />
+  <link rel="alternate" href="https://www.onworks.net/uk/software/windows?format=feed&type=atom" hreflang="uk" />
+  <link rel="alternate" href="https://www.onworks.net/ml/software/windows?format=feed&type=atom" hreflang="ml" />
+  <link rel="alternate" href="https://www.onworks.net/lo/software/windows?format=feed&type=atom" hreflang="lo" />
+  <link rel="alternate" href="https://www.onworks.net/bn/software/windows?format=feed&type=atom" hreflang="bn" />
+  <link rel="alternate" href="https://www.onworks.net/fa/software/windows?format=feed&type=atom" hreflang="fa" />
+  <link rel="alternate" href="https://www.onworks.net/th/software/windows?format=feed&type=atom" hreflang="th" />
+  <link rel="alternate" href="https://www.onworks.net/vi/software/windows?format=feed&type=atom" hreflang="vi" />
+  <link rel="alternate" href="https://www.onworks.net/id/software/windows?format=feed&type=atom" hreflang="id" />
+  <link rel="alternate" href="https://www.onworks.net/tl/software/windows?format=feed&type=atom" hreflang="tl" />
+		<link rel="alternate" type="text/html" href="http://www.onworks.net/software/windows/app-xtreme-download-manager"/>
+		<published>2020-02-08T07:57:21+00:00</published>
+		<updated>2020-02-08T07:57:21+00:00</updated>
+		<id>http://www.onworks.net/software/windows/app-xtreme-download-manager</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappxtremedownloadmanager() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/xdm-2018-x64.tar.xz?service=service01&quot;;
+downloadLink.download = &quot;xdm-2018-x64.tar.xz&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runxtremedownloadmanagerinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+function runxtremedownloadmanagerinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+function runxtremedownloadmanagerinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+function runxtremedownloadmanagerinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Xtreme Download Manager free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/xtremedownloadmanagericon.png&quot; border=&quot;0&quot; alt=&quot;Free download Xtreme Download Manager Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Xtreme Download Manager Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Xtreme Download Manager whose latest release can be downloaded as xdm-2018-x64.tar.xz. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+function downloadappxtremedownloadmanager() {
+
+var downloadLink = document.createElement(&quot;a&quot;);
+downloadLink.href = &quot;https://www.onworks.net/downloadapp/SOFTWARE/xdm-2018-x64.tar.xz?service=service01&quot;;
+downloadLink.download = &quot;xdm-2018-x64.tar.xz&quot;;
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+document.body.removeChild(downloadLink);
+     
+return false;
+           
+}
+
+
+function runxtremedownloadmanagerinubuntuonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=ubuntu-16.04.6-desktop-i386&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+function runxtremedownloadmanagerinfedoraonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=Fedora-Workstation-Live-x86_64-29-1.2&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+function runxtremedownloadmanagerinwindowsonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=win10_emulator&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+function runxtremedownloadmanagerinmacosonline()
+{
+    window.open(&quot;https://www.onworks.net/runos/create-os.html?os=pearos8-64&amp;home=init&amp;program=xtremedownloadmanager&quot;);
+}
+
+
+
+// ]]&gt;&lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;javascript:void(0)&quot; title=&quot;Windows app Xtreme Download Manager free download to run online&quot;&gt;
+&lt;img width=&quot;50px&quot; height=&quot;50px&quot; src=&quot;images/xtremedownloadmanagericon.png&quot; border=&quot;0&quot; alt=&quot;Free download Xtreme Download Manager Windows app to run online win Wine in Ubuntu online, Fedora online or Debian online&quot; title=&quot;Downloadd Xtreme Download Manager Windows app to run online with Wine in Ubuntu online, Fedora online or Debian online&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the Windows app named Xtreme Download Manager whose latest release can be downloaded as xdm-2018-x64.tar.xz. It can be run online in the free hosting provider OnWorks for workstations.&lt;/p&gt;
+
+&lt;/div&gt;</content>
+		<category term="Windows" />
+	</entry>
+</feed>
+
+
