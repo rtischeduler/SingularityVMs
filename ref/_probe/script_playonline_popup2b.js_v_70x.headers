@@ -1,0 +1,21 @@
+HTTP/2 200 
+date: Wed, 04 Nov 2026 15:13:32 GMT
+content-type: application/x-javascript
+vary: Accept-Encoding
+vary: Accept-Encoding
+x-cache-status-1: HIT
+x-cache-url-1: /playonline/popup2b.js?v=70x
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=whrCmqXBCHKHWqBrtD%2FdcZTnN807r2JBphIrF0HXk%2BEHm8xBSelZxXZv%2ByehVQKqB5vtz02v0Tb9n6mnP3Je9pcXSg%2Fv2oRot0nDx0heZPeIwR4mOLJSx5p0G6HM8UfsdEY%3D"}]}
+cache-control: public, max-age=80000, s-maxage=80000
+content-security-policy: frame-ancestors 'self';
+cross-origin-opener-policy: unsafe-none
+cross-origin-embedder-policy: unsafe-none
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+age: 1104899
+last-modified: Thu, 22 Oct 2026 20:18:32 GMT
+cf-cache-status: HIT
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a5549031cef31002-DFW
+alt-svc: h3=":443"; ma=86400
+
