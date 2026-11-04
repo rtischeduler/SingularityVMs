@@ -1,0 +1,24 @@
+HTTP/2 307 
+date: Wed, 04 Nov 2026 15:12:51 GMT
+content-type: text/html; charset=UTF-8
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, PUT, POST, DELETE, OPTIONS
+access-control-max-age: 1000
+access-control-allow-headers: Origin, Content-Type, X-Auth-Token , Authorization
+set-cookie: os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:29:31 GMT; Max-Age=1000; path=/; domain=www.onworks.net; SameSite=Strict; Secure; Secure
+set-cookie: os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:29:31 GMT; Max-Age=1000; path=/; domain=www.onworks.net;; Secure
+set-cookie: onworks_os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:29:31 GMT; Max-Age=1000; path=/; domain=www.onworks.net; SameSite=Strict; Secure; Secure
+set-cookie: onworks_os=ubuntu-22.04.3-desktop-amd64; expires=Wed, 04-Nov-2026 15:29:31 GMT; Max-Age=1000; path=/; domain=www.onworks.net;; Secure
+location: /playonline/index.php
+content-security-policy: frame-ancestors 'self';
+cross-origin-opener-policy: unsafe-none
+cross-origin-embedder-policy: unsafe-none
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tPgUUzAoLc1yjqs9ONi6MI%2F2%2Fqth8fVrkJZK%2F8rVN7suinu6nhLJEZqpBxQSBXMtEy591LvZrWUso4o%2F2TW037jEnq7zXAMKBHMCoZxppjLZpMQcXaVeG1M2i9XFm9jOvlE%3D"}]}
+server: cloudflare
+cf-ray: a5548f2e3de72ccb-DFW
+alt-svc: h3=":443"; ma=86400
+

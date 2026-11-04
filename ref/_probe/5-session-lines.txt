@@ -1,0 +1,41 @@
+121:iframe {
+135:!function(e){var t=function(u,D,f){"use strict";var k,H;if(function(){var e;var t={lazyClass:"lazyload",loadedClass:"lazyloaded",loadingClass:"lazyloading",preloadClass:"lazypreload",errorClass:"lazyerror",autosizesClass:"lazyautosizes",fastLoadedClass:"ls-is-cached",iframeLoadMode:0,srcAttr:"da
+145:	iframe = document.getElementsByClassName('responsive-iframe')[0];
+148:	iframe.style.height = newh + "px";
+154:	iframe = document.getElementsByClassName('responsive-iframe')[0];
+155:	iframe.style.height = newh + "px";
+1322:           function getToken() {
+1323:                messaging.getToken().then((currentToken) => {
+1324:                        if (currentToken) {
+1325:                                console.log('FCM Token:', currentToken);
+1326:                                token = currentToken;
+1327:                                var xhttp = new XMLHttpRequest();
+1330:                                        console.log("token posted");
+1333:                                xhttp.open("POST", "/push/storetoken.php", true);
+1335:                                xhttp.send("token=" + token);
+1337:                                console.log('No FCM token available. Request permission to generate one.');
+1340:                        console.log('An error occurred while retrieving token. ', err);
+1350:                                .then(() => getToken())
+1566:<li><a href="https://www.onworks.net/thirdparty/gdrive/google-api-php-client/core/download.php" target="_blank" id="menu68rt" title="Open from GDrive"><span></i>•&nbsp;Open from GDrive&nbsp;</span></a></li>
+1567:<li><a href="https://www.onworks.net/thirdparty/gdrive/google-api-php-client/core/upload.php" target="_blank" id="menu689" title="Save in GDrive"><span></i>•&nbsp;Save in GDrive&nbsp;</span></a></li>
+1964:.containeriframe {
+1968:.responsive-iframe {
+2037:        	<div id="loginx" class="containeriframe" style="display: none; ">
+2038:             		<!-- <iframe id="login_banner" class="responsive-iframe" src=""></iframe>    -->
+2171:function refocusGuacamoleX() {
+2178:    iframe = document.getElementsByClassName('responsive-iframe')[0];
+2179:    iframe.focus();
+2191:function loopguaca() {
+2193:     		loopguaca();
+2195:	refocusGuacamoleX();
+2199:     loopguaca();
+2204:function inactivityTime(iframe) {
+2207:  iframe.contentWindow.addEventListener('load', function(event) { resetTimer();});
+2208:  iframe.contentWindow.addEventListener('mousemove', function(event) { resetTimer();});
+2209:  iframe.contentWindow.addEventListener('onmousedown', function(event) { resetTimer();});
+2210:  iframe.contentWindow.addEventListener('touchstart', function(event) { resetTimer();});
+2211:  iframe.contentWindow.addEventListener('touchmove', function(event) { resetTimer();});
+2212:  iframe.contentWindow.addEventListener('click', function(event) { resetTimer();});
+2213:  iframe.contentWindow.addEventListener('keypress', function(event) { resetTimer();});
+2221:    refocusGuacamoleX();
+2512:    fetch(adUrl)
