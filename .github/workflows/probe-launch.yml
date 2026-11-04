@@ -36,6 +36,10 @@ jobs:
           grep -o -i -E "(wss?|https?)://[^\"' <>)\\\\]+" 2-launch.html | sort -u > 4-urls.txt || true
           grep -n -i -E "new WebSocket|fetch\(|XMLHttpRequest|\.open\(|iframe|session|token|novnc|guac|rfb|vnc|rdp" 2-launch.html | cut -c1-300 > 5-session-lines.txt || true
           sed -i 's/\(Cookie:\).*/\1 <redacted>/' *.headers; : > cookies.txt
+      - name: Probe API chain
+        env:
+          OS: ${{ inputs.os || 'ubuntu-22.04.3-desktop-amd64' }}
+        run: bash scripts/probe_api.sh "$OS"
       - name: Commit result
         run: |
           git config user.name "github-actions[bot]"
